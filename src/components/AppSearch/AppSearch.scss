@@ -1,0 +1,28 @@
+.search {
+    position: relative;
+
+
+    input {
+
+        height: 63px;
+        width: 564px;
+        max-width: 100%;
+        border: none;
+        outline: none;
+        border-radius: 30px;
+        padding: 16px 24px;
+        background-color: #162846;
+        caret-color: white;
+        margin-bottom: 64px;
+
+        &::placeholder {
+            color: #97AEC5;
+        }
+    }
+
+    .search-icon {
+        position: absolute;
+        right: 25px;
+        top: 16px;
+    }
+}
